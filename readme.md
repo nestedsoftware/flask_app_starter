@@ -2,8 +2,9 @@ Basic skeleton of a flask microservices app with blueprint and pytest unit testi
 
 Requires python 3.6, pip, and pipenv. 
 
-* install: pipenv install
-* install with dev dependencies (unit testing): pipenv install --dev
-* run: FLASK_ENV=development flask run
-* run tests: pytest -v
+* install: `$ pipenv install`
+* install with dev dependencies (unit testing): `$ pipenv install --dev`
+* start python virtual environment: `$ pipenv shell`
+* run: `$ FLASK_ENV=development flask run`
+* run tests: `$ pytest -v`
 
